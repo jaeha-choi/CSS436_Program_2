@@ -33,18 +33,12 @@ Weather and elevation data for `Seattle`
 > `java -jar MyCity.jar Seattle api_key`
 
 Weather and elevation data for `Seattle` in `US`
-> `java -jar MyCity.jar -c US "Seattle" api_key`
-
 > `java -jar MyCity.jar -c=US Seattle api_key`
 
 Weather and elevation data for `Seattle` in `WA`
 > `java -jar MyCity.jar -s WA "Seattle" api_key`
 
-> `java -jar MyCity.jar -c=US Seattle api_key`
-
 Weather and elevation data for `New York` in `NY`, `US` 
-> `java -jar MyCity.jar -s NY -c US "New York" api_key`
-
 > `java -jar MyCity.jar --country-code=US --state-code=NY "New York" api_key`
 
 ### Example Output
